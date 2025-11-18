@@ -38,7 +38,7 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **Real-time Updates**: Live message synchronization across users
 - **Message Actions**: Edit, delete, and reply to messages
 
-### 4. Organization Glossary Management 📚
+### 4. Organization Glossary Management 
 
 <img width="1410" height="651" alt="Screenshot 2025-11-18 at 2 21 39 AM" src="https://github.com/user-attachments/assets/f632643e-17d6-49b1-bfb8-5de5786e211c" />
 
@@ -50,15 +50,6 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **AI Integration**: GPT-4 rewrites use glossary terms to ensure consistent, company-approved language
 - **Team-Wide Access**: All members of your organization share the same glossary
 - **CRUD Operations**: Add, edit, and delete glossary terms through the UI
-
-**How It Works:**
-1. Organization admins/members add terms to the glossary with:
-   - **Term**: The jargon/acronym (e.g., "QBR")
-   - **Explanation**: What it means in your organization (optional)
-   - **Plain Language**: Preferred alternative (e.g., "Quarterly Business Review")
-2. When users type messages containing glossary terms, they're automatically detected and highlighted
-3. AI rewrites replace glossary terms with their plain-language versions
-4. Glossary terms get high confidence scores (95%) in jargon detection
 
 **Example Glossary Entry:**
 ```
