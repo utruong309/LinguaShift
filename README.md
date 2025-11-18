@@ -229,10 +229,6 @@ Glossary terms are automatically:
 - Used in AI rewrites to ensure consistent language
 - Shared across all members of your organization
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
