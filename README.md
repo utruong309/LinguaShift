@@ -54,13 +54,39 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **Real-time Updates**: Live message synchronization across users
 - **Message Actions**: Edit, delete, and reply to messages
 
-### 4. Personalization & Organization Settings 🎯
+### 4. Organization Glossary Management 📚
+
+**Company-Specific Terminology**: Create and manage a shared glossary of organization-specific terms that the AI uses for both detection and rewriting.
+
+- **Term Definition**: Add terms, acronyms, or jargon specific to your organization (e.g., "QBR", "OKR", "LTV", "MRR")
+- **Plain Language Alternatives**: Define preferred plain-language versions for each term
+- **Automatic Detection**: Glossary terms are automatically flagged as jargon in messages
+- **AI Integration**: GPT-4 rewrites use glossary terms to ensure consistent, company-approved language
+- **Team-Wide Access**: All members of your organization share the same glossary
+- **CRUD Operations**: Add, edit, and delete glossary terms through the UI
+
+**How It Works:**
+1. Organization admins/members add terms to the glossary with:
+   - **Term**: The jargon/acronym (e.g., "QBR")
+   - **Explanation**: What it means in your organization (optional)
+   - **Plain Language**: Preferred alternative (e.g., "Quarterly Business Review")
+2. When users type messages containing glossary terms, they're automatically detected and highlighted
+3. AI rewrites replace glossary terms with their plain-language versions
+4. Glossary terms get high confidence scores (95%) in jargon detection
+
+**Example Glossary Entry:**
+```
+Term: "QBR"
+Explanation: "Quarterly Business Review - our monthly meeting to review metrics"
+Plain Language: "Quarterly Business Review"
+```
+
+### 5. Personalization & Organization Settings 🎯
 
 **Customizable Profiles**: Tailor jargon detection and rewrites to your needs.
 
 - **Audience Presets**: Set default audience for your messages (PMs, Execs, Sales, etc.)
 - **Tone Preferences**: Choose your preferred communication style
-- **Organization Glossary**: Define company-specific terms with plain-language alternatives
 - **Department & Role**: Organize users by department and role
 
 ## 🛠️ Technologies Used
@@ -211,11 +237,30 @@ http://localhost:5173
 ## 🎯 Usage
 
 1. **Register/Login**: Create an account or sign in
-2. **Create Channels**: Set up group channels or start direct messages
-3. **Type Messages**: As you type, jargon is automatically detected and highlighted
-4. **Get Rewrites**: Click "Rewrite" to get AI-powered suggestions
-5. **Customize**: Adjust audience and tone settings
-6. **Send**: Share clear, jargon-free messages with your team
+2. **Set Up Glossary** (Optional but Recommended): Add organization-specific terms to your glossary for better detection and rewrites
+3. **Create Channels**: Set up group channels or start direct messages
+4. **Type Messages**: As you type, jargon is automatically detected and highlighted (including glossary terms)
+5. **Get Rewrites**: Click "Rewrite" to get AI-powered suggestions that respect your glossary
+6. **Customize**: Adjust audience and tone settings
+7. **Send**: Share clear, jargon-free messages with your team
+
+### Managing Your Glossary
+
+To add or manage glossary terms:
+
+1. Navigate to the Glossary Manager (accessible from your organization settings)
+2. Click "+ Add Term" to create a new entry
+3. Fill in:
+   - **Term**: The jargon or acronym (e.g., "QBR")
+   - **Explanation**: What it means (optional)
+   - **Plain Language**: Preferred alternative (e.g., "Quarterly Business Review")
+4. Save - the term is now active for all organization members
+5. Edit or delete terms as needed
+
+Glossary terms are automatically:
+- Detected in messages (with 95% confidence)
+- Used in AI rewrites to ensure consistent language
+- Shared across all members of your organization
 
 ## 📝 License
 
