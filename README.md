@@ -201,16 +201,6 @@ Open your browser and navigate to:
 ```
 http://localhost:5173
 ```
-
-## Quick Start Checklist
-
-- [ ] MongoDB Atlas connection string in `backend/.env`
-- [ ] OpenAI API key in `backend/.env`
-- [ ] JWT secret key in `backend/.env`
-- [ ] ML service running on port 5001
-- [ ] Backend server running on port 4000
-- [ ] Frontend dev server running on port 5173
-
 ## Usage
 
 1. **Register/Login**: Create an account or sign in
