@@ -1,30 +1,12 @@
 # 💬 LinguaShift - AI-Powered Corporate Messaging Platform
 
-[![React](https://img.shields.io/badge/React-19.2.0-blue.svg)](https://reactjs.org/)
-
-[![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)](https://nodejs.org/)
-
-[![Python](https://img.shields.io/badge/Python-3.11+-yellow.svg)](https://python.org/)
-
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green.svg)](https://mongodb.com/)
-
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-purple.svg)](https://openai.com/)
-
-[![LangChain](https://img.shields.io/badge/LangChain-AI%20Framework-purple.svg)](https://langchain.com/)
-
-[![RoBERTa](https://img.shields.io/badge/RoBERTa-ML%20Model-orange.svg)](https://huggingface.co/roberta-base)
-
-[![Flask](https://img.shields.io/badge/Flask-ML%20Service-red.svg)](https://flask.palletsprojects.com/)
-
-[![Vite](https://img.shields.io/badge/Vite-Build%20Tool-yellow.svg)](https://vitejs.dev/)
-
-[![TipTap](https://img.shields.io/badge/TipTap-Rich%20Text%20Editor-blue.svg)](https://tiptap.dev/)
-
 AI-powered team messaging platform that detects jargon in real-time and suggests clearer alternatives tailored to your audience—from engineers to executives.
 
-## 🚀 Main Features
+## Main Features
 
-### 1. Real-Time Jargon Detection 🔍
+### 1. Real-Time Jargon Detection 
+<img width="1145" height="385" alt="Screenshot 2025-11-18 at 2 24 25 AM" src="https://github.com/user-attachments/assets/3cc68e4c-74fe-49d3-af6d-17be7b2bd586" />
+<img width="1128" height="482" alt="Screenshot 2025-11-18 at 2 25 17 AM" src="https://github.com/user-attachments/assets/e98df765-7fac-4f00-a91d-816332a4f049" />
 
 **AI-Powered Detection**: As you type, LinguaShift uses a fine-tuned RoBERTa model to identify technical jargon, business buzzwords, and complex terminology in your messages.
 
@@ -33,7 +15,7 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **Jargon Score Bar**: Overall message clarity displayed as "Clear", "Mixed", or "Heavy" jargon
 - **Organization Glossary**: Custom terms from your organization's glossary are automatically flagged
 
-### 2. AI-Powered Rewrite Suggestions ✨
+### 2. AI-Powered Rewrite Suggestions 
 
 **GPT-4 Integration**: Get intelligent rewrite suggestions powered by OpenAI's GPT-4o-mini via LangChain.
 
@@ -43,7 +25,9 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **Editable Rewrites**: Fine-tune AI suggestions before sending
 - **Glossary-Aware**: Rewrites respect your organization's preferred plain-language terms
 
-### 3. Team Messaging Platform 💬
+### 3. Team Messaging Platform 
+
+<img width="1422" height="653" alt="Screenshot 2025-11-18 at 2 23 53 AM" src="https://github.com/user-attachments/assets/1fc3f568-9b30-4458-8059-6cea1d439847" />
 
 **Slack-like Interface**: Full-featured messaging app with modern, aesthetic design.
 
@@ -55,6 +39,8 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **Message Actions**: Edit, delete, and reply to messages
 
 ### 4. Organization Glossary Management 📚
+
+<img width="1410" height="651" alt="Screenshot 2025-11-18 at 2 21 39 AM" src="https://github.com/user-attachments/assets/f632643e-17d6-49b1-bfb8-5de5786e211c" />
 
 **Company-Specific Terminology**: Create and manage a shared glossary of organization-specific terms that the AI uses for both detection and rewriting.
 
@@ -81,7 +67,7 @@ Explanation: "Quarterly Business Review - our monthly meeting to review metrics"
 Plain Language: "Quarterly Business Review"
 ```
 
-### 5. Personalization & Organization Settings 🎯
+### 5. Personalization & Organization Settings 
 
 **Customizable Profiles**: Tailor jargon detection and rewrites to your needs.
 
@@ -89,7 +75,7 @@ Plain Language: "Quarterly Business Review"
 - **Tone Preferences**: Choose your preferred communication style
 - **Department & Role**: Organize users by department and role
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Frontend**: React 19.2.0, Vite, TipTap (Rich Text Editor), Modern CSS, Socket.io Client
 
@@ -107,7 +93,7 @@ Plain Language: "Quarterly Business Review"
 
 **Real-time**: Socket.io for live message updates
 
-## 🎬 How to Run the Code
+## How to Run the Code
 
 Follow these steps to get LinguaShift up and running on your local machine.
 
@@ -225,7 +211,7 @@ Open your browser and navigate to:
 http://localhost:5173
 ```
 
-## 📋 Quick Start Checklist
+## Quick Start Checklist
 
 - [ ] MongoDB Atlas connection string in `backend/.env`
 - [ ] OpenAI API key in `backend/.env`
@@ -234,7 +220,7 @@ http://localhost:5173
 - [ ] Backend server running on port 4000
 - [ ] Frontend dev server running on port 5173
 
-## 🎯 Usage
+## Usage
 
 1. **Register/Login**: Create an account or sign in
 2. **Set Up Glossary** (Optional but Recommended): Add organization-specific terms to your glossary for better detection and rewrites
@@ -262,10 +248,10 @@ Glossary terms are automatically:
 - Used in AI rewrites to ensure consistent language
 - Shared across all members of your organization
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
