@@ -1,6 +1,6 @@
 # 💬 LinguaShift - AI-Powered Corporate Messaging Platform
 
-AI-powered team messaging platform that detects jargon in real-time and suggests clearer alternatives tailored to your audience—from engineers to executives.
+AI-powered team messaging platform that detects jargon in real-time and suggests clearer alternatives tailored to your audience, from engineers to executives.
 
 ## Main Features
 
