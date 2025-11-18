@@ -6,7 +6,6 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 
 ### 1. Real-Time Jargon Detection 
 <img width="1145" height="385" alt="Screenshot 2025-11-18 at 2 24 25 AM" src="https://github.com/user-attachments/assets/3cc68e4c-74fe-49d3-af6d-17be7b2bd586" />
-<img width="1128" height="482" alt="Screenshot 2025-11-18 at 2 25 17 AM" src="https://github.com/user-attachments/assets/e98df765-7fac-4f00-a91d-816332a4f049" />
 
 **AI-Powered Detection**: As you type, LinguaShift uses a fine-tuned RoBERTa model to identify technical jargon, business buzzwords, and complex terminology in your messages.
 
@@ -16,6 +15,7 @@ AI-powered team messaging platform that detects jargon in real-time and suggests
 - **Organization Glossary**: Custom terms from your organization's glossary are automatically flagged
 
 ### 2. AI-Powered Rewrite Suggestions 
+<img width="1128" height="482" alt="Screenshot 2025-11-18 at 2 25 17 AM" src="https://github.com/user-attachments/assets/e98df765-7fac-4f00-a91d-816332a4f049" />
 
 **GPT-4 Integration**: Get intelligent rewrite suggestions powered by OpenAI's GPT-4o-mini via LangChain.
 
