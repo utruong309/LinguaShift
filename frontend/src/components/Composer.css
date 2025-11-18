@@ -1,0 +1,258 @@
+.composer-editor-wrapper {
+  position: relative;
+}
+
+.composer-editor-content {
+  background: #f7fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 14px;
+  min-height: 100px;
+  color: #2d3748;
+  font-size: 15px;
+  line-height: 1.6;
+  outline: none;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.composer-editor-content:focus {
+  border-color: #667eea;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.composer-editor-content p {
+  margin: 0;
+  min-height: 1.5em;
+}
+
+.composer-editor-content p.is-editor-empty:first-child::before {
+  content: "Message #channel";
+  color: #a0aec0;
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.composer-editor-content strong {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.composer-editor-content em {
+  font-style: italic;
+}
+
+/* Jargon highlighting in editor */
+.jargon-highlight {
+  text-decoration: underline wavy #f5576c;
+  background: rgba(245, 87, 108, 0.1);
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: help;
+  transition: all 0.2s ease;
+}
+
+.jargon-highlight:hover {
+  background: rgba(245, 87, 108, 0.2);
+  text-decoration-color: #e84a5f;
+}
+
+/* Enhanced banner styles */
+.composer-banner {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+  color: #856404;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-left: 4px solid #f39c12;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.composer-banner.warning {
+  background: linear-gradient(135deg, #ffcccc 0%, #ff9999 100%);
+  color: #c53030;
+  border-left-color: #e53e3e;
+}
+
+.composer-banner.info {
+  background: linear-gradient(135deg, #bee3f8 0%, #90cdf4 100%);
+  color: #2c5282;
+  border-left-color: #3182ce;
+}
+
+.composer-banner.success {
+  background: linear-gradient(135deg, #c6f6d5 0%, #9ae6b4 100%);
+  color: #22543d;
+  border-left-color: #38a169;
+}
+
+/* Jargon details panel */
+.jargon-details {
+  background: #f0f4f8;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.jargon-details strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.jargon-terms {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.jargon-term-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: white;
+  border-radius: 8px;
+  border-left: 3px solid #f5576c;
+}
+
+.jargon-term {
+  font-weight: 600;
+  color: #f5576c;
+  font-size: 13px;
+}
+
+.jargon-suggestion {
+  color: #4a5568;
+  font-size: 12px;
+  flex: 1;
+}
+
+.glossary-badge {
+  background: #667eea;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Toolbar enhancements */
+.composer-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.composer-toolbar select {
+  padding: 8px 14px;
+  background: #f7fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  color: #2d3748;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.composer-toolbar select:focus {
+  outline: none;
+  border-color: #667eea;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.composer-toolbar button {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.composer-toolbar button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.composer-toolbar button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Rewrite panel enhancements */
+.rewrite-panel {
+  background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  border: 2px solid #e2e8f0;
+}
+
+.rewrite-panel-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rewrite-panel-section strong {
+  color: #667eea;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rewrite-panel-section div {
+  color: #4a5568;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.rewrite-panel button {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.rewrite-panel button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}

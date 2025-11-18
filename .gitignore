@@ -1,0 +1,61 @@
+# Node.js dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env
+venv/
+.venv/
+ml-service/.mypy_cache/
+__pycache__/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+backend/dist/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.pt
+*.bin
+*.model
+*.pkl
+jargon_model/
+
+
+# IDE files
+.vscode/
+.idea/
+
+# Python ML service
+ml/__pycache__/
+ml/.venv/
+ml/venv/
+ml/*.pyc
+
+# Coverage and test outputs
+coverage/
+*.coverage
+
+# Temporary files
+*.cache
+
+# ML artifacts
+*.pt
+*.bin
+*.model
+*.pkl
+backend/ml-service/jargon_model/
+
+backend/ml-service/.mypy_cacheq
+.mypy_cache
+.venv/
+**/.cursor/
+cursor/
